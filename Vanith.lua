@@ -504,6 +504,12 @@ local Button = sTab:CreateButton({
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end,
  })
+ local Button = sTab:CreateButton({
+    Name = "FrostHub by Vanith",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Snipez-Dev/Synap-Src/refs/heads/main/FrostHub,true))()
+    end,
+ })
 
  local Label = sTab:CreateLabel("Brookhaven", 7743871480, Color3.fromRGB(70, 31, 120), false) -- Title, Icon, Color, IgnoreTheme
  local Button = sTab:CreateButton({
