@@ -507,22 +507,9 @@ local Button = sTab:CreateButton({
  local Button = sTab:CreateButton({
     Name = "FrostHub by Vanith",
     Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Snipez-Dev/Synap-Src/refs/heads/main/FrostHub,true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Snipez-Dev/Synap-Src/refs/heads/main/FrostHub"))()
     end,
  })
- local Button = sTab:CreateButton({
-    Name = "Everage Admin Pannel",
-    Callback = function()
-    pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/projecter94/ECP/refs/heads/main/Everage%20Control%20Panel"))() 
-        Rayfield:Notify({
-            Title = "Advice",
-            Content = "This is a free script having also a paid Admin Pannel Version.",
-            Duration = 6.5,
-            Image = 7733975185,
-         })
-    end)
-end,
-})
 
  local Label = sTab:CreateLabel("Brookhaven", 7743871480, Color3.fromRGB(70, 31, 120), false) -- Title, Icon, Color, IgnoreTheme
  local Button = sTab:CreateButton({
