@@ -524,6 +524,12 @@ local Button = sTab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/L0RD-SUD0/Unlock-all-egg-hunt-event-/refs/heads/main/ss"))()
     end,
  })
+ local Button = sTab:CreateButton({
+    Name = "Ice Hub new style (Orbit)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Waza80/scripts-new/main/IceHubBrookhaven.lua"))()
+    end,
+ })
 
  local Label = sTab:CreateLabel("Realistic hood test", 7743871480, Color3.fromRGB(70, 31, 120), false) -- Title, Icon, Color, IgnoreTheme
  local Button = sTab:CreateButton({
@@ -538,5 +544,13 @@ local Button = sTab:CreateButton({
     Name = "Break In 2 Starry",
     Callback = function()
         loadstring(game:HttpGet("https://luau.tech/build"))();
+    end,
+ })
+
+ local Label = sTab:CreateLabel("Dead Rails", 7743871480, Color3.fromRGB(70, 31, 120), false) -- Title, Icon, Color, IgnoreTheme
+ local Button = sTab:CreateButton({
+    Name = "Airflow",
+    Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/255ac567ced3dcb9e69aa7e44c423f19.lua"))()
     end,
  })
