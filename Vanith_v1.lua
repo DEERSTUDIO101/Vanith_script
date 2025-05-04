@@ -532,3 +532,11 @@ local Button = sTab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGregs/Loadstring/refs/heads/main/rhtestesting.lua"))()
     end,
  })
+
+ local Label = sTab:CreateLabel("Break In 2", 7743871480, Color3.fromRGB(70, 31, 120), false) -- Title, Icon, Color, IgnoreTheme
+ local Button = sTab:CreateButton({
+    Name = "Break In 2 Starry",
+    Callback = function()
+        loadstring(game:HttpGet("https://luau.tech/build"))();
+    end,
+ })
