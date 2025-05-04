@@ -546,6 +546,12 @@ local Button = sTab:CreateButton({
         loadstring(game:HttpGet("https://luau.tech/build"))();
     end,
  })
+ local Button = sTab:CreateButton({
+    Name = "Break In DP Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/COOLXPLO/DP-HUB-coolxplo/refs/heads/main/BreakInStory.lua"))()
+    end,
+ })
 
  local Label = sTab:CreateLabel("Dead Rails", 7743871480, Color3.fromRGB(70, 31, 120), false) -- Title, Icon, Color, IgnoreTheme
  local Button = sTab:CreateButton({
