@@ -510,6 +510,12 @@ local Button = sTab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Snipez-Dev/Synap-Src/refs/heads/main/FrostHub"))()
     end,
  })
+ local Button = sTab:CreateButton({
+    Name = "Universal Hack by Homohack",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/loader.lua"))()
+    end,
+ })
 
  local Label = sTab:CreateLabel("Brookhaven", 7743871480, Color3.fromRGB(70, 31, 120), false) -- Title, Icon, Color, IgnoreTheme
  local Button = sTab:CreateButton({
@@ -558,5 +564,11 @@ local Button = sTab:CreateButton({
     Name = "Airflow",
     Callback = function()
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/255ac567ced3dcb9e69aa7e44c423f19.lua"))()
+    end,
+ })
+ local Button = sTab:CreateButton({
+    Name = "Kiciahook",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"))()
     end,
  })
