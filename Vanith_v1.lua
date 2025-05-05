@@ -536,6 +536,12 @@ local Button = sTab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Waza80/scripts-new/main/IceHubBrookhaven.lua"))()
     end,
  })
+ local Button = sTab:CreateButton({
+    Name = "Salvatore",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RFR-R1CH4RD/Loader/main/Salvatore.lua"))()
+    end,
+ })
 
  local Label = sTab:CreateLabel("Realistic hood test", 7743871480, Color3.fromRGB(70, 31, 120), false) -- Title, Icon, Color, IgnoreTheme
  local Button = sTab:CreateButton({
@@ -570,5 +576,12 @@ local Button = sTab:CreateButton({
     Name = "Kiciahook",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"))()
+    end,
+ })
+ local Label = sTab:CreateLabel("Doors", 7743871480, Color3.fromRGB(70, 31, 120), false) -- Title, Icon, Color, IgnoreTheme
+ local Button = sTab:CreateButton({
+    Name = "Orbit by Waza80",
+    Callback = function()
+        loadstring(game:HttpGet("https://orbitsc.net/doors"))()
     end,
  })
